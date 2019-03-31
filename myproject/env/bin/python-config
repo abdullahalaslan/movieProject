@@ -1,4 +1,4 @@
-#!/home/alaslan/myproject/env/bin/python
+#!/home/alaslan/Masaüstü/movieProject/myproject/env/bin/python
 
 import sys
 import getopt

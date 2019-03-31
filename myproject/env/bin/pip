@@ -1,4 +1,4 @@
-#!/home/alaslan/myproject/env/bin/python3
+#!/home/alaslan/Masaüstü/movieProject/myproject/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

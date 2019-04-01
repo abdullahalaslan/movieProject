@@ -11,3 +11,7 @@ def index():
 def users():
 
     return render_template('users.html')
+@app.route('/chat')
+def chat():
+
+    return render_template('chat.html')

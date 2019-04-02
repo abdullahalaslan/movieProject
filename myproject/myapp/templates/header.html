@@ -51,26 +51,36 @@
                 <li><a href="404.html">404</a></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#"><i class="icon-briefcase"></i> Portfolio <i class="icon-angle-down"></i></a>
-              <ul class="dropdown-menu">
-                <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
-                <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
-                <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
-                <li><a href="portfolio-detail.html">Portfolio detail</a></li>
-              </ul>
+            <li>
+              <a href="/listeler"><i class="icon-briefcase"></i> Listeler</a>
             </li>
             <li class="dropdown">
-              <a href="#"><i class="icon-book"></i> Blog <i class="icon-angle-down"></i></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
-                <li><a href="post-right-sidebar.html">Post right sidebar</a></li>
-              </ul>
+              <a href="/haberler"><i class="icon-book"></i> Haberler</a>
+
             </li>
             <li>
               <a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a>
+            </li>
+            <li>
+
+              <a href="#" data-toggle="modal" data-target="#login-modal"> <i class="icon-user"></i> Giriş</a>
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Hesabına Giriş Yap</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" class="btn btn-theme" value="Login">
+				  </form>
+
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
             </li>
           </ul>
         </nav>

@@ -15,3 +15,19 @@ def users():
 def chat():
 
     return render_template('chat.html')
+@app.route('/listeler')
+def listeler():
+
+    return render_template('listeler.html')
+@app.route('/listeDetay')
+def listeDetay():
+
+    return render_template('listeDetay.html')
+@app.route('/haberler')
+def haberler():
+
+    return render_template('haberler.html')
+@app.route('/haberDetay')
+def haberDetay():
+
+    return render_template('haberDetay.html')

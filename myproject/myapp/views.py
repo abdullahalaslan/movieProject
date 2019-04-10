@@ -31,3 +31,7 @@ def haberler():
 def haberDetay():
 
     return render_template('haberDetay.html')
+@app.route('/iletisim')
+def iletisim():
+
+    return render_template('iletisim.html')
